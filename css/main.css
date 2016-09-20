@@ -1,0 +1,100 @@
+/*
+This is the primary css3 file for the personal website of Rachel Spies
+colors:
+        aquamarine: #7fffd4
+        tan: #e6e7c7
+        off-white: #f6f9f9
+*/ 
+
+body {
+    margin: 0 auto;
+    background-color: #f6f9f9;
+}
+
+#wrapper { 
+    margin: 0 auto;
+    max-width: 960px;
+    min-width: 960px;  
+    height: 100vh;
+    background-color: #222;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#top-nav li {
+    float: left;
+}
+
+#top-nav li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: #f6f9f9;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#top-nav li a:hover {
+    background-color: #000;
+}
+
+#top-nav .active { 
+    background-color: #7fffd4;
+    color: #222;
+}
+
+#top-nav .active:hover { 
+    background-color: #7fffd4;
+}
+
+#bot-nav { 
+    width: 29.5%; /*centering the bar*/
+}
+
+#bot-nav li {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#bot-nav li a {
+    display: block;
+    padding: 16px 10px;
+    text-align: center;
+    color: #f6f9f9;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-decoration: none; 
+}
+
+#bot-nav li a:hover { 
+    color: #7fffd4;
+}
+
+#bot-nav .active { 
+    color: #7fffd4;
+}
+
+#social-bar {
+    padding: 10px;
+    width: 22.1%; /* centering the bar */
+}
+
+#social-bar li {
+    display: inline-block;
+}
+
+#copyright { 
+    margin: 0 auto;
+    text-align: center;
+    color: #f6f9f9;
+    font-family: sans-serif;
+    font-size: .8em;
+    font-weight: 600;
+}
