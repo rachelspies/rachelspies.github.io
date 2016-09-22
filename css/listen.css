@@ -1,0 +1,10 @@
+#player { 
+    display: block;
+    margin: 0 auto;
+    height: 620px;
+}
+
+#boombox { 
+    height: 640px;
+    background-image: url(../images/listen.png);
+}
