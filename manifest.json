@@ -1,5 +1,5 @@
 {
-	"name": "Spies",
+	"name": "Rachel Spies",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",
@@ -12,6 +12,6 @@
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#7fffd4",
+	"theme_color": "#ffffff",
 	"display": "standalone"
 }

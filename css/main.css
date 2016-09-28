@@ -6,12 +6,18 @@ colors:
         off-white: #f6f9f9
 */ 
 
+@font-face { 
+    font-family: alcubierre; 
+    src: url (alcubierre.otf); 
+} 
+
 body {
     margin: 0 auto;
     background-color: #f6f9f9;
 }
 
 #wrapper { 
+    position: relative;
     margin: 0 auto;
     max-width: 960px;
     min-width: 960px;  
@@ -91,6 +97,7 @@ ul {
 }
 
 #copyright { 
+    position: static;
     margin: 0 auto;
     text-align: center;
     color: #f6f9f9;
