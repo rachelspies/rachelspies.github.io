@@ -1,76 +1,176 @@
 <!DOCTYPE html>
-
-<html lang = "en-us">
+<html lang="en">
 <head>
-    <!-- META -->
-    <title> Rachel Spies | Dancer </title>
-    <meta charset = "utf-8">
-        <meta name = "description" content = "Official Site of Professional 
-                                              Talent Rachel Spies">
-    <meta name = "keywords" content = "Rachel Spies, Dancer, Actress, Singer,
-                                       University of Akron, Thodos Dance Chicago,
-                                       Pro Model and Talent">
-    <meta name = "author" content = "Dave Quarick">
-    <meta name="google-site-verification" content="4_xCevJgqTTpeJnFTUDPXNzXrnn5IlHY3wVUKj3cBM0" />
-    
-    <!-- CSS & JS -->
-    <link rel="stylesheet" type ="text/css" href = "css/main.css">
-    <link rel="stylesheet" type ="text/css" href = "css/index.css">
-    
-    <!-- FAVICON -->
+	<!-- META --> 
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="The professional site of Chicago dancer, singer, and actress Rachel Spies"/>
+	<title> Rachel Spies | Professional Dancer &amp; Talent</title>
+	<!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
+	<!-- RESOURCE LINKS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+		  rel="stylesheet" 
+		  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+		  crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+			integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+			crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+		  rel="stylesheet" 
+		  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+		  crossorigin="anonymous">
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto" rel="stylesheet">
 </head>
+<body>
+	<div id="wrapper" class="container">
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<div id="nav-left" class="navbar-header">
+			  <a class="navbar-brand" href="index.html"> <img id="nav-image" src="imgs/dancer.png"/> Rachel Spies </a>
+				
+				<div id="xs-icons">
+					<a href="#watch"> <i class="fa fa-eye fa-2x"></i></a>
+					<a href="#about"> <i class="fa fa-edit fa-2x"></i></a>
+					<a href="#contact"> <i class="fa fa-envelope fa-2x"></i></a>
+				</div>
+			</div>
 
-    <body>
-        <div id = "wrapper">
-        
-            <ul id = "top-nav">
-                <li> <a class = "active" href = "#"> HOME </a> </li>
-                <li> <a href = "about.html"> ABOUT </a> </li>
-                <li> <a href = "watch.html"> WATCH </a> </li>
-                <li> <a href = "listen.html"> LISTEN </a> </li>
-                <li> <a href = "contact.html"> CONTACT </a> </li>
-            </ul>
+			<ul id="nav-right" class="nav navbar-nav navbar-right">
+				<li><a href="#watch"> Watch </a></li>
+				<li><a href="#about"> About </a></li>
+				<li><a href="#contact"> Contact </a></li>
+			</ul>
+		  </div>
+		</nav>
+		<!-- BEGIN headshot -->
+		<div class="row">
+			<div id="headshot" class="col-xs-12">
+				<img class="img-responsive" src="imgs/rachel-spies-headshot.jpg"/>
+			</div>
+		</div> <!-- END headshot -->
+		<!-- BEGIN watch -->
+		<div id="watch" class="row">
+				<iframe class="col-xs-12 col-sm-4" src="https://www.youtube.com/embed/25aUFYuy47U" frameborder="0" allowfullscreen></iframe>
+				<iframe class="col-xs-12 col-sm-4" src="https://www.youtube.com/embed/7XH3eitxdI8" frameborder="0" allowfullscreen></iframe>
+				<iframe class="col-xs-12 col-sm-4" src="https://www.youtube.com/embed/PhusOStBmko" frameborder="0" allowfullscreen></iframe>
+		</div><!-- END watch -->
+		<!-- BEGIN about -->
+		<div id="about" class="row">
+			<h2> About </h2>
+			<img id="snacking" src="imgs/rachel-spies-with-snacks.png"/>
+			<div id="about-right">
+				<ul>
+					<li> I'm a dancer, singer, and actress living in Chicago, IL </li>
+					<li> I hold my BFA in Dance from The University of Akron </li>
+					<li> Contemporary and Jazz are my favorite styles </li>
+					<li> I'm 5'5" tall with brown hair and hazel eyes </li>
+					<li> I'm originally from Cleveland, OH </li>
+					<li> I love to sing and listen to music </li>
+					<li> Strengths: fast learning and well-rounded </li>
+					<li> Weaknesses: cute animals and babies </li>
+				</ul>
+			</div>
+			<a id="download-link" href="rachel-spies-resume.pdf" download="Rachel Spies - Resume"> 	
+				<button> 
+					Resume <br/> <i class="fa fa-download"></i>
+				</button>
+			</a>
+		</div><!-- END about -->
+		<!-- BEGIN contact -->
+		<div id="contact" class="row">
+			<h2> Contact </h2>
+			<form action="" method="post">
+				<div class="form-group">
+					<label for="name"> Name: </label>
+					<input class="form-control" name="name" type="text"/>
+				</div>
+				<div class="form-group">
+					<label for="email"> Email: </label>
+					<input class="form-control" name="email" type="email"/>
+				</div>
+				<div class="form-group">
+					<label for="message"> Message: </label>
+					<textarea class="text-area form-control" name="message"></textarea>
+				</div>
+				<input type="submit" style="display:none"/>
+			</form>
+		</div><!-- END contact -->
+		<!-- BEGIN bot-bar -->
+		<div id="bot-bar">
+			<div class="row">
+				<a href="https://www.facebook.com/rspies1" target="_blank"> 
+					<div class="social-square" style="margin-left:0px">
+						<i class="fa fa-facebook fa-2x"></i> 
+					</div> 
+				</a>
+				<a href="https://twitter.com/heyyrayy11" target="_blank"> 
+					<div class="social-square">
+						<i class="fa fa-twitter fa-2x"></i>
+					</div>
+				</a>
+				<a href="https://instagram.com/heyyrayy11" target="_blank"> 
+					<div class="social-square">
+						<i class="fa fa-instagram fa-2x"></i> 
+					</div> 
+				</a>
+				<a href="https://www.youtube.com/channel/UCHS-PF8voqFASFCkmtyuHsA" target="_blank"> 
+					<div class="social-square">
+						<i class="fa fa-youtube-play fa-2x"></i>
+					</div>
+				</a>
+				<a href="#wrapper">
+					<div id="to-top">
+						<i class="fa fa-chevron-up fa-3x"></i>
+					</div>
+				</a>
+			</div>
+			<h5> &copy; 2017 Rachel Spies </h5>
+		</div> <!-- END bot-bar -->
+	</div> <!-- END wrapper -->
+	<!-- JS FOR SMOOTH SCROLLING -->
+	<script>
+		$(document).ready(function(){
+		  // smooth scrolling for all links in navbar and #to-top
+		  $(".navbar a").on('click', function(event) {
+			// make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // prevent default anchor click behavior
+			  event.preventDefault();
+			  // store hash
+			  var hash = this.hash;
 
-            <h1 id = "first-name"> Rachel</h1>
-            <h1 id = "last-name"> Spies </h1>
-            <img id = "portrait" src = "imgs/rachel-spies-headshot.jpg"
-             alt = "A headshot of 22 year old actress, Rachel Spies"/>
+			  // jQuery's animate() method adds smooth page scroll
+			  // optional arg (900) specifies the number of ms to scroll
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 900, function(){
 
-            <footer>
-                
-                <ul id = "bot-nav">
-                    <li> <a class = "active" href = "#"> HOME </a> </li>
-                    <li> <a href = "about.html"> ABOUT </a> </li>
-                    <li> <a href = "watch.html"> WATCH </a> </li>
-                    <li> <a href = "listen.html"> LISTEN </a> </li>
-                    <li> <a href = "contact.html"> CONTACT </a> </li>
-                </ul>
-                
-                <ul id = "social-bar">
-                    <li> <a href = "https://www.facebook.com/rspies1" target = "_blank"> 
-                        <img src = "imgs/facebook-button.png"/> </a>
-                    </li>
-                    <li> <a href = "https://twitter.com/heyyrayy11" target = "_blank">
-                        <img src = "imgs/twitter-button.png"/> </a> 
-                    </li> 
-                    <li> <a href = " https://www.youtube.com/user/rsxdancex4ever/videos" target = "_blank">
-                        <img src = "imgs/youtube-button.png"/> </a> 
-                    </li>
-                    <li> <a href = "https://instagram.com/heyyrayy11" target = "_blank"> 
-                        <img src = "imgs/insta-button.png"/> </a>
-                    </li>
-                </ul>
-                
-                <p id ="copyright">© Copyright Rachel Spies 2016 </p>
-            </footer>
-        
-        </div>
-    </body>
+				// add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			}
+		  });
 
+		  $(window).scroll(function() {
+			$(".slideanim").each(function(){
+			  var pos = $(this).offset().top;
+
+			  var winTop = $(window).scrollTop();
+				if (pos < winTop + 600) {
+				  $(this).addClass("slide");
+				}
+			});
+		  });
+		})
+	</script>
+</body>
 </html>

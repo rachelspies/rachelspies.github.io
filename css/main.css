@@ -1,107 +1,326 @@
-/*
-This is the primary css3 file for the personal website of Rachel Spies
-colors:
-        aquamarine: #7fffd4
-        gold: #e6e7c7
-        off-white: #f6f9f9
-*/ 
+/* ALL SCREEN SIZES */
+html, body { 
+	padding: 0;
+	margin: 0;
+	background-color: #fafafa;
+}
 
-@font-face { 
-    font-family: alcubierre; 
-    src: url (alcubierre.otf); 
-} 
-
-body {
-    margin: 0 auto;
-    background-color: #f6f9f9;
+::selection { 
+	background-color: #7fffd4;
 }
 
 #wrapper { 
-    position: relative;
-    margin: 0 auto;
-    max-width: 960px;
-    min-width: 960px;  
-    height: 100vh;
-    background-color: #222;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 960px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+	font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-ul {
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    list-style-type: none;
+.row { 
+	margin: 0;
 }
 
-#top-nav li {
-    float: left;
+.col-xs-4, .col-xs-12 { 
+	padding: 0;
 }
 
-#top-nav li a {
-    display: block;
-    padding: 14px 16px;
-    text-align: center;
-    color: #f6f9f9;
-    font-family: sans-serif;
-    text-decoration: none;
+.navbar {
+	border: none;
+	border-radius: 0;
+	margin: 0;
+	background-color: #000;
 }
 
-#top-nav li a:hover {
-    background-color: #000;
+#nav-image { 
+	display: inline-block;
 }
 
-#top-nav .active { 
-    background-color: #7fffd4;
-    color: #222;
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+	transition: color .3s;
 }
 
-#top-nav .active:hover { 
-    background-color: #7fffd4;
+.navbar-inverse .navbar-brand:hover {
+	color: #7fffd4;
 }
 
-#bot-nav { 
-    width: 29.5%; /*centering the bar*/
+.navbar-inverse .navbar-nav>li>a {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 16px;
+	transition: .3s;
 }
 
-#bot-nav li {
-    display: inline-block;
-    float: left;
-    margin: 0 auto;
-    padding: 0;
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #7fffd4;
 }
 
-#bot-nav li a {
-    display: block;
-    padding: 16px 10px;
-    text-align: center;
-    color: #f6f9f9;
-    font-family: sans-serif;
-    font-size: 10px;
-    text-decoration: none; 
+/* WATCH */
+iframe { 
+	display: block;
+	float: left;
+	margin: 0 auto;
+	padding: 0;
 }
 
-#bot-nav li a:hover { 
-    color: #7fffd4;
+/* ABOUT */
+#about {
+	background: url('../imgs/roundabouts-pattern.png') repeat;
+	background-attachment: fixed;
 }
 
-#bot-nav .active { 
-    color: #7fffd4;
+#about-right {
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	margin: 20px;
 }
 
-#social-bar {
-    padding: 10px;
-    width: 22.1%; /* centering the bar */
+#download-link {
+	color: #444;
 }
 
-#social-bar li {
-    display: inline-block;
+button { 
+	border-radius: 0px;
+	font-size: 20px;
 }
 
-#copyright { 
-    position: static;
-    margin: 0 auto;
-    text-align: center;
-    color: #f6f9f9;
-    font-family: sans-serif;
-    font-size: .8em;
-    font-weight: 600;
+#about h2, #contact h2 {
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+
+/* CONTACT */
+#contact { 
+	min-height: 370px;
+	padding-bottom: 15px; 
+	background-color: #5a5a5a;
+	margin: 0px;
+}
+
+#contact h2 { 
+	color: #fff;
+}
+
+.form-control:focus { 
+	border-color: #7fffd4;
+}
+
+form {
+	padding: 0 20px;
+}
+
+textarea.form-control {
+	height: 90px;
+	resize: none;
+}
+
+/* BOTTOM BAR */
+#bot-bar {
+	padding: 20px 20px 0px;
+	margin: 0px;
+	min-height: 105px;
+	background: url('../imgs/dark-wood.png') repeat;
+	color: #fff;
+}
+
+.social-square { 
+	display: inline-block;
+	margin-left: 10px;
+	padding: 10px;
+	background-color: #7fffd4;
+	height: 50px;
+	width: 50px;
+	border-radius: 4px;
+	text-align: center;
+	transition: background .3s;
+}
+
+.social-square:hover {
+	background-color: #fff;
+}
+
+ a .social-square {
+	color: #000;
+}
+
+#bot-bar a:hover { 
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#to-top { 
+	display: inline-block;
+	float: right;
+	height: 75px;
+	width: 75px;
+	border-radius: 4px;
+	background-color: #7fffd4;
+	color: #000;
+	text-align: center;
+	transition: background .3s;
+}
+
+#to-top { 
+	padding: 15px;
+}
+
+#to-top:hover {
+	cursor: pointer;
+	background-color: #fff;
+}
+
+#bot-bar h5 {
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+/* MOBILE VERSION*/
+
+@media screen and (min-width: 768px){ 
+	#xs-icons, #xs-icons a {
+		display: none;
+	}
+}
+
+/* SM SCREEN AND UP */
+@media screen and (max-width: 767px){
+	
+	.navbar { 
+		background: url('../imgs/dark-wood.png') repeat;
+	}
+	
+	.navbar li a { 
+		display: none;
+	}
+	
+	#xs-icons { 
+		display: inline-block;
+		float: right;
+		margin: 15px;
+	}
+
+	#xs-icons a { 
+		color: #fff;
+		text-decoration: none;
+		margin-right: 7px;
+	}
+	
+	#about-right {
+		text-align: center;
+		padding: 10px;
+	}
+	
+	#about-right li { 
+		margin: 5px 0;
+	}
+	
+	button{ 
+		display: block;
+		width: 280px;
+		margin: 0 auto 20px;
+	}
+	
+	#snacking { 
+		display: none;
+	}
+	
+	#about-right ul { 
+		list-style-type: none;
+		padding-left: 0;
+	}
+	
+	.social-square { 
+		width: 30px;
+		background-color: transparent;
+	}
+	
+	#bot-bar i { 
+		color: #7fffd4;
+	}
+	
+	#to-top i{ 
+		color: #111;
+	}
+}
+
+@media screen and (min-width: 768px){
+	
+	#about {
+		position: relative;
+		min-height: 640px;
+	}
+	
+	#snacking { 
+		position: absolute;
+		bottom: 0px;
+		left: 15px;
+	}
+	
+	#about-right {
+		width: 50%;
+		float: right;
+	}
+	
+	#about-right>ul { 
+		list-style-type: none;
+		padding: 10px;
+	}
+	
+	#download-link { 
+		position: absolute;
+		display: inline-block;
+		right: 20px;
+		bottom: 20px;
+		width: 50%;
+	}
+	
+	button { 
+		width: 100%;
+	}
+	
+	button:hover { 
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	}
+	
+}
+
+/* SMOOTH SCROLL */
+.slideanim {
+	visibility:hidden;
+}
+
+.slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
 }
