@@ -35,14 +35,12 @@ html, body {
 #nav-img { 
 	display: inline-block;
 	float:left;
-	margin-top: 10px;
 	height: 30px;
 	width: 30px;
 }
 
 #nav-name a {
 	display: inline-block;
-	margin-top: 5px;
 	float: left;
 	color: #fff;
 	font-family: 'Dancing Script', cursive;
@@ -189,13 +187,11 @@ textarea.form-control {
 }
 
 /* XS */
-@media screen and (min-width: 768px){ 
-	#xs-icons, #xs-icons a {
-		display: none;
-	}
-}
-
 @media screen and (max-width: 767px){
+	
+	#nav-name{ 
+		margin: 25px 0 0 15px;
+	}
 	
 	.navbar li a { 
 		display: none;
@@ -204,7 +200,7 @@ textarea.form-control {
 	#xs-icons { 
 		display: inline-block;
 		float: right;
-		margin: 15px;
+		margin: 3px 15px 0 0;
 	}
 
 	#xs-icons a { 
@@ -253,6 +249,18 @@ textarea.form-control {
 
 /* SM AND UP */
 @media screen and (min-width: 768px){
+	
+	#nav-img { 
+		margin-top: 10px;
+	}
+	
+	#nav-name a{
+		margin-top: 5px;
+	}
+	
+	#xs-icons, #xs-icons a {
+		display: none;
+	}
 	
 	iframe {
 		height: 320px;	
