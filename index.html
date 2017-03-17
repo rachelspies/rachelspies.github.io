@@ -127,7 +127,7 @@
 						<i class="fa fa-youtube-play fa-2x"></i>
 					</div>
 				</a>
-				<a href="#wrapper">
+				<a id="to-top-link" href="#wrapper">
 					<div id="to-top">
 						<i class="fa fa-chevron-up fa-3x"></i>
 					</div>
@@ -140,7 +140,7 @@
 	<script>
 		$(document).ready(function(){
 		  // smooth scrolling for all links in navbar and #to-top
-		  $(".navbar a").on('click', function(event) {
+		  $(".navbar a, #to-top-link").on('click', function(event) {
 			// make sure this.hash has a value before overriding default behavior
 			if (this.hash !== "") {
 			  // prevent default anchor click behavior
