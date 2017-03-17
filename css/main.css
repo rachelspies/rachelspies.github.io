@@ -251,6 +251,10 @@ textarea.form-control {
 
 @media screen and (min-width: 768px){
 	
+	iframe {
+		height: 320px;	
+	}
+	
 	#about {
 		position: relative;
 		min-height: 640px;
