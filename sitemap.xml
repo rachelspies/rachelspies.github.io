@@ -5,32 +5,7 @@
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
       <loc>http://www.rachelspies.com/</loc>
-      <lastmod>2016-09-28</lastmod>
+      <lastmod>2017-03-24</lastmod>
       <priority>1.00</priority>
-    </url>
-    <url>
-      <loc>http://www.rachelspies.com/about.html</loc>
-      <lastmod>2016-09-28</lastmod>
-      <priority>0.80</priority>
-    </url>
-    <url>
-      <loc>http://www.rachelspies.com/watch.html</loc>
-      <lastmod>2016-09-28</lastmod>
-      <priority>0.80</priority>
-    </url>
-    <url>
-      <loc>http://www.rachelspies.com/listen.html</loc>
-      <lastmod>2016-09-28</lastmod>
-      <priority>0.80</priority>
-    </url>
-    <url>
-      <loc>http://www.rachelspies.com/contact.html</loc>
-      <lastmod>2016-09-28</lastmod>
-      <priority>0.80</priority>
-    </url>
-    <url>
-      <loc>http://www.rachelspies.com/index.html</loc>
-      <lastmod>2016-09-28</lastmod>
-      <priority>0.64</priority>
     </url>
 </urlset>

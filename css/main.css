@@ -72,13 +72,13 @@ iframe {
 	padding: 0;
 }
 
-/* ABOUT */
-#about {
+/* BIO */
+#bio {
 	background: url('../imgs/roundabouts-pattern.png') repeat;
 	background-attachment: fixed;
 }
 
-#about-right {
+#bio-right {
 	background-color: rgba(0,0,0,.5);
 	color: #fff;
 	margin: 20px;
@@ -93,7 +93,7 @@ button {
 	font-size: 20px;
 }
 
-#about h2, #contact h2 {
+#bio h2, #contact h2 {
 	margin: auto;
 	padding: 20px;
 	text-align: center;
@@ -119,6 +119,7 @@ button {
 
 form {
 	padding: 0 20px;
+	color: #ccc;
 }
 
 textarea.form-control {
@@ -209,12 +210,12 @@ textarea.form-control {
 		margin-right: 7px;
 	}
 	
-	#about-right {
+	#bio-right {
 		text-align: center;
 		padding: 10px;
 	}
 	
-	#about-right li { 
+	#bio-right li { 
 		margin: 5px 0;
 	}
 	
@@ -228,7 +229,7 @@ textarea.form-control {
 		display: none;
 	}
 	
-	#about-right ul { 
+	#bio-right ul { 
 		list-style-type: none;
 		padding-left: 0;
 	}
@@ -266,7 +267,7 @@ textarea.form-control {
 		height: 320px;	
 	}
 	
-	#about {
+	#bio {
 		position: relative;
 		min-height: 640px;
 	}
@@ -277,12 +278,12 @@ textarea.form-control {
 		left: 15px;
 	}
 	
-	#about-right {
+	#bio-right {
 		width: 50%;
 		float: right;
 	}
 	
-	#about-right>ul { 
+	#bio-right>ul { 
 		list-style-type: none;
 		padding: 10px;
 	}
